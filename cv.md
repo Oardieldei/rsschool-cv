@@ -1,25 +1,31 @@
-Name:
+# It's CV here. Or not?..
+
+## Name:
 Alik Kyevda
 
-Contacts:
-tg: @Oardieldei
+## Contacts:
+> tg: @Oardieldei
 
-About:
-I love to learn, I love to develop and that is why I fell in love with programming.
+## About:
+I love _to learn_, I love *to develop* and that is why I fell in love with **programming**.
 
-Skills:
+## Skills:
 HTML/CSS/JS
 
-Simple code:
+## Simple code:
+```
 function multiply(a, b){
   return a * b
 }
+```
 
-Work exp:
+## Work exp:
 Nothing, but it will.
 
-Esucation:
+## Esucation:
 RSSchool
 
-English:
-London is the capital of Great Britain.
+## English:
+* London is 
+* the capital of 
+* Great Britain.
