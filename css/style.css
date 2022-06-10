@@ -72,16 +72,14 @@ body {
 	display: flex;	
 }
 
-.bg__flex > div {
-	width: 50%;	
-}
-
 .bg__flex > div:first-child {
 	background: linear-gradient(180deg, rgba(16, 237, 210, 0.85) 0%, rgba(16, 224, 237, 0.85) 5.33%, rgba(158, 34, 233, 0.85) 100%);
+	width: 44%;
 }
 
 .bg__flex > div:last-child {
 	background-color: #FFFFFF;
+	width: 56%;
 }
 
 .body__container {
@@ -306,14 +304,14 @@ section {
 .tasks__flex a {
 	border-radius: 7px;
 	overflow: hidden;
-	background-color: rgb(236, 236, 236);
+	background-color: #8930cd3d;
 	color: #000000;
 	font-weight: 500;
 	font-size: 1.1rem;
 }
 
 .tasks__flex a:hover {
-	background-color: rgb(241, 241, 241);
+	background-color: #00ffe534;
 }
 
 .tasks__flex p {
@@ -327,4 +325,41 @@ section {
 
 section:last-child {
 	margin-bottom: 12px;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;	
+}
+
+.logo img {
+	width: 70px;
+	margin-left: auto;
+	margin-right: 0;
+	display: block;
+}
+
+.logo {
+	width: 385px;
+}
+
+.nav ul {
+ display: flex;
+}
+
+.nav li {
+	padding-top: 22px;
+}
+
+.nav a {
+	padding: 22px;
+	color: #000000;
+	font-weight: 500;
+	font-size: 17px;
+	border-radius: 10px;
+}
+
+.nav a:hover {
+	color: #252525;
+	background-color: #00ffe510;
 }
