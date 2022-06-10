@@ -153,6 +153,15 @@ body {
 
 .contact__li > a {
 	color: #eceaea;
+	background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size .3s;
+}
+
+.contact__li > a:hover {
+	background-size: 100% 2px;
 }
 
 .contact__li > img {
@@ -244,9 +253,9 @@ body {
 
 h1 {
 	text-transform: uppercase;	
-	color: #6C6C6C;
+	color: #4b4b4b;
 	font-weight: 500;
-	font-size: 26px;
+	font-size: 26px;	
 }
 
 .right__h {
@@ -279,4 +288,31 @@ h1 {
 
 section {
 	margin-bottom: 30px;
+}
+
+.tasks__flex {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.tasks__item img {
+	width: 120px;
+}
+
+.tasks__flex a {
+	border-radius: 7px;
+	overflow: hidden;
+	background-color: rgb(236, 236, 236);
+	color: #000000;
+	font-weight: 500;
+	font-size: 1.1rem;
+}
+
+.tasks__flex a:hover {
+	background-color: rgb(241, 241, 241);
+}
+
+.tasks__flex p {
+	text-align: center;
 }
