@@ -178,14 +178,21 @@
 						<div class="code__h">
 							<h3>Code</h3>
 						</div>
-						<div class="code__text"></div>
-					</section>
-					<section class="to-you">
-						<div class="to-you__h">
-							<h3>For you, friend</h3>
+						<div class="code__text">
+							<pre>
+								<code>
+function deepCount(a){
+  let sum = a.length
+  for (let i = 0; i < a.length; i++)
+    if (Array.isArray(a[i])) {
+      sum += deepCount(a[i])
+      deepCount(a[i]) 
+    }    
+  return sum
+}</code>
+							</pre>
 						</div>
-						<div class="to-you__text"></div>
-					</section>
+					</section>				
 				</div>
 			</div>
 		</main>
