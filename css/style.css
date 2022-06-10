@@ -133,3 +133,64 @@ h1, h2, h3, h4, h5, h6 {
 .contact__li:last-child {
 	margin-bottom: 23px;
 }
+
+.skills__h {
+	font-size: 12px;
+	font-weight: 500;
+	margin-bottom: 12px;
+}
+
+.skills__text {
+	font-size: 11px;
+}
+
+.skills__li {
+	margin-bottom: 4px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.pr-bar {
+	width: 95px;
+	height: 8px;
+	border: solid #10EDD2 1px;
+	border-radius: 3px;
+	display: flex;
+	align-items: center;
+}
+
+.pr-bar > span {
+	display: inline-block;
+	height: 6px;
+	border-radius: 2px;
+	background-color: #FFFFFF;
+}
+
+.HTML {
+	width: 95%;
+}
+
+.Figma {
+	width: 80%;
+}
+
+.CSS {
+	width: 90%;
+}
+
+.JS {
+	width: 15%;
+}
+
+.Marvel {
+	width: 98%;
+}
+
+.Memes {
+	width: 100%;
+}
+
+.DDT {
+	width: 85%;
+}
