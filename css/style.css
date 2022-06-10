@@ -141,7 +141,7 @@ body {
 }
 
 .contact__li {
-	font-size: 11px;
+	font-size: 16px;
 	margin-bottom: 11px;
 	display: flex;
 	align-items: center;
@@ -156,40 +156,40 @@ body {
 }
 
 .contact__li > img {
-	width: 17px;
-	margin-right: 8px;
+	width: 25px;
+	margin-right: 13px;
 }
 
 .skills__h {
-	font-size: 12px;
+	font-size: 23px;
 	font-weight: 500;
-	margin-bottom: 12px;
+	margin-bottom: 20px;
 }
 
 .skills__text {
-	font-size: 11px;
+	font-size: 16px;
 }
 
 .skills__li {
-	margin-bottom: 2px;
+	margin-bottom: 5px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
 
 .pr-bar {
-	width: 95px;
-	height: 8px;
+	width: 170px;
+	height: 14px;
 	border: solid #10EDD2 1px;
-	border-radius: 3px;
+	border-radius: 4px;
 	display: flex;
 	align-items: center;
 }
 
 .pr-bar > span {
 	display: inline-block;
-	height: 6px;
-	border-radius: 2px;
+	height: 12px;
+	border-radius: 3.5px;
 	background-color: #FFFFFF;
 }
 
@@ -222,23 +222,23 @@ body {
 }
 
 .skills__li:last-child {
-	margin-bottom: 20px;
+	margin-bottom: 35px;
 }
 
 .interests__h {
-	font-size: 12px;
+	font-size: 23px;
 	font-weight: 500;
-	margin-bottom: 12px;
+	margin-bottom: 20px;
 }
 
 .interests__p {
-	font-size: 11px;
+	font-size: 16px;
 	margin-bottom: 23px;
 }
 
 .right-side {
 	color: #7D7E7F;
-	padding: 42px 32px 27px 32px;
+	padding: 60px 42px 32px 42px;
 	width: 60.4%;
 }
 
@@ -246,7 +246,7 @@ h1 {
 	text-transform: uppercase;	
 	color: #6C6C6C;
 	font-weight: 500;
-	font-size: 16px;
+	font-size: 26px;
 }
 
 .right__h {
