@@ -59,3 +59,77 @@ h1, h2, h3, h4, h5, h6 {
 }
 /*Конец обнуления*/
 
+.body__container {
+	width: 595px;
+	margin: 0 auto;
+	font-family: Roboto;
+	font-weight: 400;
+	text-align: justify;
+	line-height: 16px;
+}
+
+.main {
+	display: flex;
+}
+
+.left-side {
+	width: 39.6%;
+	background: linear-gradient(180deg, rgba(16, 237, 210, 0.85) 0%, rgba(16, 224, 237, 0.85) 5.33%, rgba(158, 34, 233, 0.85) 100%);
+	padding: 32px;
+	padding-right: 27px;
+	color: #FFFFFF;
+}
+
+.right-side {
+	background-color: #FFFFFF;
+}
+
+.ava {
+	width: 143px;
+	border-radius: 50%;
+	margin: 0 auto;
+	display: block;
+	margin-bottom: 21px;
+}
+
+.about-me {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 25px;
+}
+
+.about__h {
+	font-weight: 500;
+	margin: 0 auto 18px;
+	font-size: 12px;
+}
+
+.about__p {
+	font-size: 11px;
+}
+
+.contact__h {
+	font-size: 12px;
+	font-weight: 500;
+	margin-bottom: 12px;
+}
+
+.contact__li {
+	font-size: 11px;
+	margin-bottom: 11px;
+	display: flex;
+	align-items: center;
+}
+
+.contact__li > a {
+	color: #FFFFFF;
+}
+
+.contact__li > img {
+	width: 17px;
+	margin-right: 8px;
+}
+
+.contact__li:last-child {
+	margin-bottom: 23px;
+}
