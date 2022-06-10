@@ -100,7 +100,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .about__h {
 	font-weight: 500;
-	margin: 0 auto 18px;
+	margin-bottom: 12px;
 	font-size: 12px;
 }
 
@@ -130,10 +130,6 @@ h1, h2, h3, h4, h5, h6 {
 	margin-right: 8px;
 }
 
-.contact__li:last-child {
-	margin-bottom: 23px;
-}
-
 .skills__h {
 	font-size: 12px;
 	font-weight: 500;
@@ -145,7 +141,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .skills__li {
-	margin-bottom: 4px;
+	margin-bottom: 2px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -193,4 +189,19 @@ h1, h2, h3, h4, h5, h6 {
 
 .DDT {
 	width: 85%;
+}
+
+.skills__li:last-child {
+	margin-bottom: 20px;
+}
+
+.interests__h {
+	font-size: 12px;
+	font-weight: 500;
+	margin-bottom: 12px;
+}
+
+.interests__p {
+	font-size: 11px;
+	margin-bottom: 23px;
 }
