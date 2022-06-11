@@ -5,47 +5,207 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/style.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
 	<title>CV</title>
 </head>
 
 <body>
+	<div class="bg__flex">
+		<div></div>
+		<div></div>
+	</div>
+	<div class="body__container">
+		<header class="header">
+			<div class="logo">
+				<img src="./img/i-love-you.png" alt="">
+			</div>
+			<nav class="nav">
+				<ul>
+					<li><a href="#edu">Education</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#skills">Skills</a></li>
+					<li><a href="#code">Code</a></li>
+					<li><a href="#contacts">Contacts</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main class="main">
+			<aside class="left-side">
+				<img src="./img/ava.jpg" alt="Eto ya!" class="ava">
+				<div class="about-me" id="about">
+					<h2 class="about__h">About</h2>
+					<p class="about__p">Hello! My name is Alik, what's yours? Glad to see you on my first site. It is a pity that
+						the design is narrow, but it is beautiful and interesting. I'm a student at stage0, I'm going to finish the
+						course and work in my dream job. I spend all my free time on this and have no regrets. Thank you for
+						reading. Be happy friend!</p>
+				</div>
+				<div class="my-skills" id="skills">
+					<h2 class="skills__h">Skills</h2>
 
-	<h1>It's CV here. Or not?..</h1>
-
-	<h2>Name:</h2>
-	<p>Alik Kyevda</p>
-
-	<img src="./img/kitty.jpg" alt="KITTY!!1">
-
-	<h2>Contacts:</h2>
-	<p>tg: @Oardieldei</p>
-
-	<h2>About:</h2>
-	<p>I love to learn, I love to develop and that is why I fell in love with programming.</p>
-
-	<h2>Skills:</h2>
-	<p>HTML/CSS/JS</p>
-
-	<h2>Simple code:</h2>
-	<pre>
-function multiply(a, b){
-	return a * b
-}
-	</pre>
-
-	<h2>Work exp:</h2>
-	<p>Nothing, but it will</p>
-
-	<h2>Esucation:</h2>
-	<p>RSSchool</p>
-
-	<h2>English:</h2>
-	<ul>
-		<li>London is </li>
-		<li>the capital of </li>
-		<li>Great Britain.</li>
-	</ul>
-
+					<ul class="skills__ul">
+						<li class="skills__li">
+							<span class="skills__text">Figma</span>
+							<div class="pr-bar"><span class="Figma"></span></div>
+						</li>
+						<li class="skills__li">
+							<span class="skills__text">HTML</span>
+							<div class="pr-bar"><span class="HTML"></span></div>
+						</li>
+						<li class="skills__li">
+							<span class="skills__text">CSS</span>
+							<div class="pr-bar"><span class="CSS"></span></div>
+						</li>
+						<li class="skills__li">
+							<span class="skills__text">JS</span>
+							<div class="pr-bar"><span class="JS"></span></div>
+						</li>
+						<li class="skills__li">
+							<span class="skills__text">Marvel movies</span>
+							<div class="pr-bar"><span class="Marvel"></span></div>
+						</li>
+						<li class="skills__li">
+							<span class="skills__text">Memes</span>
+							<div class="pr-bar"><span class="Memes"></span></div>
+						</li>
+						<li class="skills__li">
+							<span class="skills__text">English (B2)</span>
+							<div class="pr-bar"><span class="English"></span></div>
+						</li>
+					</ul>
+				</div>
+				<div class="interests">
+					<h2 class="interests__h">Interests</h2>
+					<p class="interests__p">I like a lot of things. For example, I like to walk, exploring the world. I love
+						interacting with people and learning. I also play guitar and Dark Souls. I read books and study poetry. I
+						love everything.</p>
+				</div>
+				<div class="contact-me" id="contacts">
+					<h2 class="contact__h">Contacts</h2>
+					<ul class="contact__ul">
+						<li class="contact__li">
+							<img src="./img/tel.svg" alt="">
+							<a href="tel:103">103</a>
+						</li>
+						<li class="contact__li">
+							<img src="./img/mail.svg" alt="">
+							<a href="mailto:alik.want.you@gmail.com">alik.want.you@gmail.com</a>
+						</li>
+						<li class="contact__li">
+							<img src="./img/map.svg" alt="">
+							<a href="https://www.google.com/maps/@53.8902109,27.5503669,3a,75y,315.96h,90t/data=!3m8!1e1!3m6!1sAF1QipOLafP91ohLOOiJrw_WtxrAhnkNh8l9Mw4kNYrT!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOLafP91ohLOOiJrw_WtxrAhnkNh8l9Mw4kNYrT%3Dw203-h100-k-no-pi0-ya330.32465-ro-0-fo100!7i8192!8i4096"
+								target="_blank">Minsk, Belarus</a>
+						</li>
+						<li class="contact__li">
+							<img src="./img/web.svg" alt="">
+							<a href="https://t.me/oardieldei" target="_blank">@Oardieldei</a>
+						</li>
+					</ul>
+				</div>
+			</aside>
+			<div class="right-side">
+				<div class="right__h">
+					<h1>This is my CV here</h1>
+				</div>
+				<div class="right__content">
+					<section class="edu" id="edu">
+						<div class="edu__h right__before">
+							<h3>Education</h3>
+						</div>
+						<div class="edu__text rtext__before">
+							<div>
+								<h4>Gymnasium #16</h4>
+								<p>1–3 stages</p>
+								<p>Minsk</p>
+							</div>
+							<div>
+								<h4>Gymnasium #19 (Ecological)</h4>
+								<p>4–5 stages</p>
+								<p>Minsk</p>
+							</div>
+							<div>
+								<h4>M.Rylsky Specialized school #7</h4>
+								<p>6 stage</p>
+								<p>Kyiv</p>
+							</div>
+							<div>
+								<h4>School #136 (Theatrical)</h4>
+								<p>7 stage</p>
+								<p>Minsk</p>
+							</div>
+							<div>
+								<h4>Lyceum #1 at BSUIR</h4>
+								<p>8 stage</p>
+								<p>Minsk</p>
+							</div>
+							<div>
+								<h4>Sanatorium boarding school #9</h4>
+								<p>9 stage</p>
+								<p>Minsk</p>
+							</div>
+							<div>
+								<h4>Lyceum #1 at BSUIR</h4>
+								<p>10–11 stages</p>
+								<p>Minsk</p>
+							</div>
+							<div>
+								<h4>MRK BSUIR</h4>
+								<p>Technician-programmer</p>
+								<p>Minsk</p>
+							</div>
+						</div>
+					</section>
+					<section class="tasks">
+						<div class="tasks__h right__before">
+							<h3>Works</h3>
+						</div>
+						<div class="tasks__text rtext__before">
+							<div class="tasks__flex">
+								<a href="#" class="tasks__item">
+									<img src="./img/my.png" alt="">
+									<p>This CV LOL</p>
+								</a>
+								<a href="https://font.redcollar.co/" class="tasks__item" target="_blank">
+									<img src="./img/cl.png" alt="">
+									<p>CLICK ME</p>
+								</a>
+								<a href="https://www.google.com/" class="tasks__item" target="_blank">
+									<img src="./img/go.png" alt="">
+									<p>Google ofc</p>
+								</a>
+							</div>
+						</div>
+					</section>
+					<section class="code" id="code">
+						<div class="code__h right__before">
+							<h3>Code</h3>
+						</div>
+						<div class="code__text rtext__before">
+							<pre>
+								<code>
+function deepCount(a){
+  let sum = a.length
+  for (let i = 0; i < a.length; i++)
+    if (Array.isArray(a[i])) {
+      sum += deepCount(a[i])
+      deepCount(a[i]) 
+    }    
+  return sum
+}</code>
+							</pre>
+						</div>
+					</section>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<a href="https://github.com/Oardieldei" target="_blank"><img src="./img/github.png" alt="" class="git"></a>
+			<a href="https://rs.school/js/" target="_blank"><img src="./img/rs_school_js.svg" alt="" class="rss"></a>
+		</footer>
+	</div>
 </body>
-
 </html>
