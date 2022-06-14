@@ -383,6 +383,10 @@ section:last-child {
 	width: auto;		
 }
 
+.footer p {
+	padding-right: 30px;
+}
+
 .git {
 	transform: rotate(-360deg);
 	transition: transform .7s ease-in-out;
