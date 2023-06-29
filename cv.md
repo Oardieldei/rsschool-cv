@@ -6,7 +6,8 @@
 **I know:**
 * HTML5
 * CSS3
-* JS (beginner).
+* JS (beginner)
+
 ##### RSSchool JS/FE stage 1.
 ```const happinessCheck = (doYouLoveYourself) => doYouLoveYourself ? 'Great!' : 'Change this!'```
 
