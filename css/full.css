@@ -1,5 +1,6 @@
 body {
 	position: relative;
+	font-family: Roboto;
 }
 
 .bg-container {
@@ -9,6 +10,7 @@ body {
 	right: 0;
 	bottom: 0;
 	display: flex;
+	z-index: -1;
 }
 
 .left-bg {
@@ -24,7 +26,30 @@ body {
 }
 
 .full-container {
-	max-width: 1000px;
+	max-width: 930px;
 	margin: 0 auto;
-	padding: 0 35px;
+}
+
+.container {
+	display: flex;
+}
+
+.container > *:first-child {
+	width: calc(465px - 6vw);
+	padding-right: 20px;
+}
+
+.container > *:last-child {
+	width: calc(465px + 6vw);
+	padding-left: 20px;
+}
+
+@media (max-width: 930px) {
+	.container > *:first-child {
+		width: 44%;
+	}
+	
+	.container > *:last-child {
+		width: 56%;
+	}
 }
