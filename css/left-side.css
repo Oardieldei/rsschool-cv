@@ -1,0 +1,29 @@
+.main-left {
+	color: #eceaea;
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+}
+
+.main-left__avatar_container {
+	width: 80%;
+	overflow: hidden;
+	box-shadow: 0 0 13px 1px rgba(157, 34, 233, 0.719);
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+.main-left__avatar {
+	width: 100%;
+}
+
+.left-title {
+	font-weight: 500;
+	margin-bottom: 20px;
+	font-size: 23px;
+}
+
+.left-text {
+	text-align: justify;
+	line-height: 19px;
+}
