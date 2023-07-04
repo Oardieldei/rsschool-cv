@@ -8,7 +8,7 @@
 .main-left__avatar_container {
 	width: 80%;
 	overflow: hidden;
-	box-shadow: 0 0 13px 1px rgba(157, 34, 233, 0.719);
+	box-shadow: 0 0 15px 1px rgba(163, 63, 224, 0.719);
 	border-radius: 50%;
 	margin: 0 auto;
 }
@@ -21,9 +21,79 @@
 	font-weight: 500;
 	margin-bottom: 20px;
 	font-size: 23px;
+	padding-left: 20px;
 }
 
 .left-text {
 	text-align: justify;
 	line-height: 19px;
+}
+
+.main-left__skills {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+}
+
+.main-left__skill {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.main-left__skill_progress {
+	width: 100%;
+	max-width: 170px;
+	height: 14px;
+	border: solid 2px #10EDD2;
+	border-radius: 4px;
+	display: flex;
+	align-items: center;
+}
+
+.skill-progress {
+	height: 10px;
+	border-radius: 2px;
+	background-color: #eceaea;
+}
+
+.main-left__skill_progress__figma {
+	width: 80%;
+}
+
+.main-left__skill_progress__html {
+	width: 96%;
+}
+
+.main-left__skill_progress__css {
+	width: 92%;
+}
+
+.main-left__skill_progress__js {
+	width: 51%;
+}
+
+.main-left__skill_progress__marvel {
+	width: 98%;
+}
+
+.main-left__skill_progress__memes {
+	width: 100%;
+}
+
+.main-left__skill_progress__english {
+	width: 40%;
+}
+
+@media (max-width: 960px) {
+	.main-left {
+		padding-left: 30px;
+	}
+
+	.main-left__skill {
+		flex-direction: column;
+		gap: 4px;
+	}
 }
