@@ -21,7 +21,33 @@
 		<header class="header container">
 			<div class="header-left">
 				<div class="header-left__img_container">
-					<img src="./img/i-love-you.png" alt="" class="header-left__img">
+					<svg viewBox="0 0 280 280" class="svg svg--bird">
+						<defs>
+							<mask id="mask" maskunits="userSpaceOnUse" maskcontentunits="userSpaceOnUse">
+								<image xlink:href="https://img-fotki.yandex.ru/get/15520/5091629.a4/0_8d416_118079e_orig" width="277"
+									height="293"></image>
+							</mask>
+
+							<linearGradient id="gr-1" x1="0" y1="0" x2="100%" y2="100%">
+								<stop offset="15%" class="stop-color stop-color--1" />
+								<stop offset="45%" class="stop-color stop-color--2" />
+								<stop offset="55%" class="stop-color stop-color--2" />
+								<stop offset="85%" class="stop-color stop-color--3" />
+							</linearGradient>
+
+							<linearGradient id="gr-2" x1="0" y1="100%" x2="100%" y2="0%">
+								<stop offset="15%" class="stop-color stop-color--4" />
+								<stop offset="45%" class="stop-color stop-color--5" stop-opacity="0" />
+								<stop class="stop-color stop-color--5" stop-opacity="0" />
+								<stop offset="85%" class="stop-color stop-color--6" />
+							</linearGradient>
+						</defs>
+
+						<g mask="url(#mask)" class="g-container">
+							<rect fill="url(#gr-1)" width="100%" height="100%"></rect>
+							<rect fill="url(#gr-2)" width="100%" height="100%"></rect>
+						</g>
+					</svg>
 				</div>
 			</div>
 			<nav class="header-right">
@@ -128,7 +154,8 @@
 							</a>
 						</li>
 						<li class="main-left__contact">
-							<a href="https://www.google.com/maps/@53.8902109,27.5503669,3a,75y,315.96h,90t/data=!3m8!1e1!3m6!1sAF1QipOLafP91ohLOOiJrw_WtxrAhnkNh8l9Mw4kNYrT!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOLafP91ohLOOiJrw_WtxrAhnkNh8l9Mw4kNYrT%3Dw203-h100-k-no-pi0-ya330.32465-ro-0-fo100!7i8192!8i4096" class="main-left__contact_link" target="_blank">
+							<a href="https://www.google.com/maps/@53.8902109,27.5503669,3a,75y,315.96h,90t/data=!3m8!1e1!3m6!1sAF1QipOLafP91ohLOOiJrw_WtxrAhnkNh8l9Mw4kNYrT!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOLafP91ohLOOiJrw_WtxrAhnkNh8l9Mw4kNYrT%3Dw203-h100-k-no-pi0-ya330.32465-ro-0-fo100!7i8192!8i4096"
+								class="main-left__contact_link" target="_blank">
 								<img src="./icon/map.svg" alt="" class="main-left__contact_image">
 								<span class="main-left__contact_text">Minsk, Belarus</span>
 							</a>

@@ -12,11 +12,89 @@
 }
 
 .header-left__img_container {
-	max-width: 70px;
+	width: 70px; 
+	height: 70px;
+	position: relative;
 }
 
-.header-left__img {
-	width: 100%;	
+.svg {
+	position: absolute;
+	left: 15px;
+	top: -20px;
+	margin: auto;
+}
+
+.svg--bird {
+	width: 70px;
+	height: 70px;
+}
+
+.stop-color {
+	stop-color: crimson;
+	animation: colors 3s linear infinite;
+}
+
+.stop-color--2 {
+	animation-delay: -1s;
+}
+
+.stop-color--3 {
+	animation-delay: -.5s;
+}
+
+.stop-color--4 {
+	animation-delay: -2s;
+}
+
+.stop-color--5 {
+	animation-delay: -2.5s;
+}
+
+.stop-color--6 {
+	animation-delay: -1.5s;
+}
+
+@keyframes colors {
+	0% {
+			stop-color: maroon;
+	}
+	10% {
+			stop-color: crimson;
+	}
+	20% {
+			stop-color: orangered;
+	}
+	30% {
+			stop-color: gold;
+	}
+	40% {
+			stop-color: yellowgreen;
+	}
+	50% {
+			stop-color: skyblue;
+	}
+	60% {
+			stop-color: steelblue;
+	}
+	70% {
+			stop-color: slateblue;
+	}
+	80% {
+			stop-color: darkviolet;
+	}
+	90% {
+			stop-color: purple;
+	}
+}
+
+.svg--bird {
+	animation: up-down 1.68s infinite ease-out;
+}
+
+@keyframes up-down {
+	50% {
+			transform: translate(0, 30px);
+	}
 }
 
 .header-right__ul {
@@ -58,6 +136,22 @@
 		align-items: center;
 		padding: 0;
 		margin: 0 auto;
+	}
+
+	.header-left__img_container {
+		width: 150px; 
+		height: 150px;
+		margin: 0 auto;
+	}
+	
+	.svg {
+		left: 0;
+		top: 10px;
+	}
+	
+	.svg--bird {
+		width: 150px;
+		height: 150px;
 	}
 }
 
