@@ -22,7 +22,7 @@
 .header-right__ul {
 	display: flex;
 	justify-content: space-between;
-	padding: 20px 0;
+	padding: 12px 0;
 }
 
 .header-right__link {
@@ -58,7 +58,6 @@
 		align-items: center;
 		padding: 0;
 		margin: 0 auto;
-		border: none;
 	}
 }
 
@@ -82,7 +81,11 @@
 		-webkit-mask-image: url('../mask/nav-mask.svg');
 		-webkit-mask-size: 100px 42px;
 		-webkit-mask-repeat: space;
-		-webkit-mask-position: center;				
+		-webkit-mask-position: center;	
+	}
+
+	.header-right__link {
+		border: none;
 	}
 
 	@media (max-width: 1170px) {
