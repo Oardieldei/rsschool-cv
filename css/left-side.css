@@ -130,4 +130,12 @@
 		flex-direction: column;
 		gap: 4px;
 	}
+
+	.main-left__contact_link * {
+		font-size: .74em;
+	}
+
+	.main-left__contact_link {
+		gap: 9px;
+	}
 }

@@ -1,0 +1,83 @@
+.main-right__title {
+	text-transform: uppercase;
+  color: #4b4b4b;
+  font-weight: 500;
+  font-size: 26px;
+	text-align: center;
+	margin: 50px auto 30px;
+}
+
+.main-right__eductaion_title {
+	color: #8A30CD;
+	font-weight: 500;
+	font-size: 23px;
+	margin-bottom: 30px;
+	padding-left: 73px;
+	position: relative;
+}
+
+.main-right__eductaion_title::after {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+	content: '';
+	width: 45px;
+	height: 45px;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.education_title::after {
+	background-image: url('../icon/edu.svg');
+}
+
+.line_container {
+	padding-left: 22px;
+	display: flex;
+}
+
+.line_item {
+	min-height: 100%;
+	width: 2px;
+	border-left: dashed #7D7E7F 0.2px;
+	margin-right: 50px;
+}
+
+.main-right__eductaion_content_info {
+	padding: 4px 0;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.main-right__eductaion_content_info_item {
+	display: flex;
+	flex-direction: column;
+	gap: 7px;
+	font-size: 15px;
+}
+
+.main-right__eductaion_content_info_item__title {
+	color: #000000;
+	font-weight: 500;	
+}
+
+.main-right__eductaion_content_info_item__stages {
+	font-size: 0.8em;
+	color: #7D7E7F;
+}
+
+.main-right__eductaion_content_info_item__location {
+	font-size: 0.6rem;
+	color: #7D7E7F;
+}
+
+
+
+@media (max-width: 930px) {
+	.main-right {
+		padding-right: 30px;
+	}
+}

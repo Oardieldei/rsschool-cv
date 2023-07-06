@@ -117,14 +117,16 @@
   background-image: linear-gradient(currentColor, currentColor);
   background-position: 0% 100%;
   background-repeat: no-repeat;
-  background-size: 0% 2px;
-  transition: background-size .3s;
+  background-size: 0% 1.5px;
+  transition: .3s;
+	position: relative;
 }
 
 .header-right__link:hover {
 	color: #252525;
 	background-color: #00ffe528;
-	background-size: 100% 2px;
+	background-size: 100% 4px;
+	transform: scale(1.1, 1.1);
 }	
 
 @media (max-width: 1170px) {
@@ -161,7 +163,7 @@
 			background-position: 0;
 		}
 		100% {
-			background-position: 600px;
+			background-position: 550px;
 		}
 	}
 
@@ -171,7 +173,7 @@
 		rgba(158, 34, 233, 0.85) 50%,
 		rgba(16, 224, 237, 0.85) 97.35%, 
 		rgba(16, 237, 210, 0.85) 100%);
-		animation: nav-bg 2s infinite alternate ease-in-out;
+		animation: nav-bg 4s infinite alternate ease-in-out;
 		-webkit-mask-image: url('../mask/nav-mask.svg');
 		-webkit-mask-size: 100px 42px;
 		-webkit-mask-repeat: space;
@@ -191,5 +193,11 @@
 				background-position: 100px;
 			}
 		}
+	}
+}
+
+@media (max-width: 930px) {
+	.header-right {
+		padding-right: 30px;
 	}
 }
