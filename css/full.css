@@ -44,6 +44,10 @@ body {
 	padding-left: 30px;
 }
 
+.main {
+	margin-bottom: 50px;
+}
+
 @media (max-width: 930px) {
 	.container > *:first-child {
 		width: 44%;
