@@ -1,13 +1,19 @@
+.main-right {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
 .main-right__title {
 	text-transform: uppercase;
   color: #4b4b4b;
   font-weight: 500;
   font-size: 26px;
 	text-align: center;
-	margin: 50px auto 30px;
+	margin-top: 50px;
 }
 
-.main-right__eductaion_title {
+.right_title {
 	color: #8A30CD;
 	font-weight: 500;
 	font-size: 23px;
@@ -16,7 +22,7 @@
 	position: relative;
 }
 
-.main-right__eductaion_title::after {
+.right_title::after {
 	position: absolute;
 	top: 50%;
 	left: 0;
@@ -29,8 +35,16 @@
 	background-repeat: no-repeat;
 }
 
-.education_title::after {
+.main-right__eductaion_title::after {
 	background-image: url('../icon/edu.svg');
+}
+
+.main-right__works_title::after {
+	background-image: url('../icon/works.svg');
+}
+
+.main-right__code_title::after {
+	background-image: url('../icon/code.svg');
 }
 
 .line_container {
@@ -45,11 +59,14 @@
 	margin-right: 50px;
 }
 
-.main-right__eductaion_content_info {
-	padding: 4px 0;
+.main-right__eductaion_content_info {	
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
+}
+
+.right_contents {
+	padding: 4px 0;
 }
 
 .main-right__eductaion_content_info_item {
@@ -72,6 +89,58 @@
 .main-right__eductaion_content_info_item__location {
 	font-size: 0.6rem;
 	color: #7D7E7F;
+}
+
+.main-right__works_content_projects {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+	flex-wrap: wrap;
+}
+
+.main-right__works_content_project_link {
+	display: block;
+	width: 120px;
+	height: 140px;
+	overflow: hidden;
+	border-radius: 10px;
+	background-color: #8911e675;
+	transition: .3s;
+}
+
+.main-right__works_content_project_link:hover {
+	background-color: #00ffe534;
+}
+
+.main-right__works_content_project_link__image {
+	width: 100%;
+	height: 120px;
+	background-size: cover;
+}
+
+.horror_project .main-right__works_content_project_link__image {
+	background-image: url('../img/horror-project.png');
+}
+
+.css-bayan .main-right__works_content_project_link__image {
+	background-image: url('../img/css_bayan.png');
+}
+
+.my-cv .main-right__works_content_project_link__image {
+	background-image: url('../img/avatar.jpg');
+}
+
+.main-right__works_content_project_link > .main-right__works_content_project_link__title,
+.main-right__works_content_project_link:visited > .main-right__works_content_project_link__title,
+.main-right__works_content_project_link:active > .main-right__works_content_project_link__title {
+	color: #000000;	
+}
+
+.main-right__works_content_project_link__title {
+	font-weight: 500;
+	text-align: center;
+	padding-top: 2px;
 }
 
 
