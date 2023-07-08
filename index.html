@@ -8,7 +8,8 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-	<title>My CV. Hello!</title>
+	<link rel="shortcut icon" href="./img/favicon.jpg" type="image/x-icon">
+	<title>Alik &lt;3</title>
 </head>
 
 <body>
@@ -20,19 +21,323 @@
 		<header class="header container">
 			<div class="header-left">
 				<div class="header-left__img_container">
-					<img src="./img/i-love-you.png" alt="" class="header-left__img">
+					<svg viewBox="0 0 280 280" class="svg svg--bird">
+						<defs>
+							<mask id="mask" maskunits="userSpaceOnUse" maskcontentunits="userSpaceOnUse">
+								<image xlink:href="https://img-fotki.yandex.ru/get/15520/5091629.a4/0_8d416_118079e_orig" width="277"
+									height="293"></image>
+							</mask>
+
+							<linearGradient id="gr-1" x1="0" y1="0" x2="100%" y2="100%">
+								<stop offset="15%" class="stop-color stop-color--1" />
+								<stop offset="45%" class="stop-color stop-color--2" />
+								<stop offset="55%" class="stop-color stop-color--2" />
+								<stop offset="85%" class="stop-color stop-color--3" />
+							</linearGradient>
+
+							<linearGradient id="gr-2" x1="0" y1="100%" x2="100%" y2="0%">
+								<stop offset="15%" class="stop-color stop-color--4" />
+								<stop offset="45%" class="stop-color stop-color--5" stop-opacity="0" />
+								<stop offset="55%" class="stop-color stop-color--5" stop-opacity="0" />
+								<stop offset="85%" class="stop-color stop-color--6" />
+							</linearGradient>
+						</defs>
+
+						<g mask="url(#mask)" class="g-container">
+							<rect fill="url(#gr-1)" width="100%" height="100%"></rect>
+							<rect fill="url(#gr-2)" width="100%" height="100%"></rect>
+						</g>
+					</svg>
 				</div>
 			</div>
 			<nav class="header-right">
 				<ul class="header-right__ul">
-					<li class="header-right__li"><a href="#!" class="header-right__link">Education</a></li>
-					<li class="header-right__li"><a href="#!" class="header-right__link">About</a></li>
-					<li class="header-right__li"><a href="#!" class="header-right__link">Skills</a></li>
-					<li class="header-right__li"><a href="#!" class="header-right__link">Code</a></li>
-					<li class="header-right__li"><a href="#!" class="header-right__link">Contants</a></li>
+					<li class="header-right__li"><a href="#education" class="header-right__link">Education</a></li>
+					<li class="header-right__li"><a href="#about" class="header-right__link">About</a></li>
+					<li class="header-right__li"><a href="#skills" class="header-right__link">Skills</a></li>
+					<li class="header-right__li"><a href="#code" class="header-right__link">Code</a></li>
+					<li class="header-right__li"><a href="#contacts" class="header-right__link">Contants</a></li>
 				</ul>
 			</nav>
 		</header>
+		<main class="main container">
+			<div class="main-left">
+				<div class="main-left__avatar_container">
+					<img src="./img/avatar.jpg" alt="" class="main-left__avatar">
+				</div>
+				<div class="main-left__about_container" id="about">
+					<h2 class="main-left__about_title left-title">
+						About
+					</h2>
+					<p class="main-left__about_text left-text">
+						Hello! My name is Alik, what's yours? Glad to see you on my first site. It is a pity that the design is
+						narrow, but it is beautiful and interesting. I'm a student at stage0, I'm going to finish the course and
+						work in my dream job. I spend all my free time on this and have no regrets. Thank you for reading. Be happy
+						friend!
+					</p>
+				</div>
+				<div class="main-left__skills_container" id="skills">
+					<h2 class="main-left__skills_title left-title">
+						Skills
+					</h2>
+					<ul class="main-left__skills">
+						<li class="main-left__skill">
+							<p class="main-left__skill_name left-text">Figma</p>
+							<div class="main-left__skill_progress">
+								<div class="main-left__skill_progress__figma skill-progress"></div>
+							</div>
+						</li>
+						<li class="main-left__skill">
+							<p class="main-left__skill_name left-text">HTML</p>
+							<div class="main-left__skill_progress">
+								<div class="main-left__skill_progress__html skill-progress"></div>
+							</div>
+						</li>
+						<li class="main-left__skill">
+							<p class="main-left__skill_name left-text">CSS</p>
+							<div class="main-left__skill_progress">
+								<div class="main-left__skill_progress__css skill-progress"></div>
+							</div>
+						</li>
+						<li class="main-left__skill">
+							<p class="main-left__skill_name left-text">JS</p>
+							<div class="main-left__skill_progress">
+								<div class="main-left__skill_progress__js skill-progress"></div>
+							</div>
+						</li>
+						<li class="main-left__skill">
+							<p class="main-left__skill_name left-text">Marvel movies</p>
+							<div class="main-left__skill_progress">
+								<div class="main-left__skill_progress__marvel skill-progress"></div>
+							</div>
+						</li>
+						<li class="main-left__skill">
+							<p class="main-left__skill_name left-text">Memes</p>
+							<div class="main-left__skill_progress">
+								<div class="main-left__skill_progress__memes skill-progress"></div>
+							</div>
+						</li>
+						<li class="main-left__skill">
+							<p class="main-left__skill_name left-text">English (B1)</p>
+							<div class="main-left__skill_progress">
+								<div class="main-left__skill_progress__english skill-progress"></div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="main-left__interests_container">
+					<h2 class="main-left__interests_title left-title">
+						Interests
+					</h2>
+					<p class="main-left__interests_text left-text">
+						Hello! My name is Alik, what's yours? Glad to see you on my CV. It is a pity that the design is
+						narrow, but it is beautiful and interesting. I'm a student at stage0, I'm going to finish the course and
+						work in my dream job. I spend all my free time on this and have no regrets. Thank you for reading. Be happy
+						friend!
+					</p>
+				</div>
+				<div class="main-left__contacts_container" id="contacts">
+					<h2 class="main-left__contacts_title left-title">
+						Contacts
+					</h2>
+					<ul class="main-left__contacts">
+						<li class="main-left__contact">
+							<a href="tel:103" class="main-left__contact_link" target="_blank">
+								<img src="./icon/tel.svg" alt="" class="main-left__contact_image">
+								<span class="main-left__contact_text">103</span>
+							</a>
+						</li>
+						<li class="main-left__contact">
+							<a href="mailto:alik.want.you@gmail.com" class="main-left__contact_link" target="_blank">
+								<img src="./icon/mail.svg" alt="" class="main-left__contact_image">
+								<span class="main-left__contact_text">alik.want.you@gmail.com</span>
+							</a>
+						</li>
+						<li class="main-left__contact">
+							<a href="https://www.google.com/maps/@53.8902109,27.5503669,3a,75y,315.96h,90t/data=!3m8!1e1!3m6!1sAF1QipOLafP91ohLOOiJrw_WtxrAhnkNh8l9Mw4kNYrT!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOLafP91ohLOOiJrw_WtxrAhnkNh8l9Mw4kNYrT%3Dw203-h100-k-no-pi0-ya330.32465-ro-0-fo100!7i8192!8i4096"
+								class="main-left__contact_link" target="_blank">
+								<img src="./icon/map.svg" alt="" class="main-left__contact_image">
+								<span class="main-left__contact_text">Minsk, Belarus</span>
+							</a>
+						</li>
+						<li class="main-left__contact">
+							<a href="https://t.me/oardieldei" class="main-left__contact_link" target="_blank">
+								<img src="./icon/web.svg" alt="" class="main-left__contact_image">
+								<span class="main-left__contact_text">@Oardieldei</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="main-right">
+				<h1 class="main-right__title">
+					This is my SV here
+				</h1>
+				<section class="main-right__eductaion_container" id="education">
+					<h3 class="main-right__eductaion_title right_title">
+						Education
+					</h3>
+					<div class="main-right__eductaion_content_container line_container">
+						<div class="main-right__eductaion_content_line line_item"></div>
+						<ul class="main-right__eductaion_content_info right_contents">
+							<li class="main-right__eductaion_content_info_item">
+								<h4 class="main-right__eductaion_content_info_item__title">
+									Gymnasium #16
+								</h4>
+								<p class="main-right__eductaion_content_info_item__stages">
+									1–3 stages
+								</p>
+								<p class="main-right__eductaion_content_info_item__location">
+									Minsk
+								</p>
+							</li>
+							<li class="main-right__eductaion_content_info_item">
+								<h4 class="main-right__eductaion_content_info_item__title">
+									Gymnasium #19 (Ecological)
+								</h4>
+								<p class="main-right__eductaion_content_info_item__stages">
+									4–5 stages
+								</p>
+								<p class="main-right__eductaion_content_info_item__location">
+									Minsk
+								</p>
+							</li>
+							<li class="main-right__eductaion_content_info_item">
+								<h4 class="main-right__eductaion_content_info_item__title">
+									M.Rylsky Specialized school #7
+								</h4>
+								<p class="main-right__eductaion_content_info_item__stages">
+									6 stage
+								</p>
+								<p class="main-right__eductaion_content_info_item__location">
+									Kyiv
+								</p>
+							</li>
+							<li class="main-right__eductaion_content_info_item">
+								<h4 class="main-right__eductaion_content_info_item__title">
+									School #136 (Theatrical)
+								</h4>
+								<p class="main-right__eductaion_content_info_item__stages">
+									7 stage
+								</p>
+								<p class="main-right__eductaion_content_info_item__location">
+									Minsk
+								</p>
+							</li>
+							<li class="main-right__eductaion_content_info_item">
+								<h4 class="main-right__eductaion_content_info_item__title">
+									Lyceum #1 at BSUIR
+								</h4>
+								<p class="main-right__eductaion_content_info_item__stages">
+									8 stage
+								</p>
+								<p class="main-right__eductaion_content_info_item__location">
+									Minsk
+								</p>
+							</li>
+							<li class="main-right__eductaion_content_info_item">
+								<h4 class="main-right__eductaion_content_info_item__title">
+									Sanatorium boarding school #9
+								</h4>
+								<p class="main-right__eductaion_content_info_item__stages">
+									9 stage
+								</p>
+								<p class="main-right__eductaion_content_info_item__location">
+									Minsk
+								</p>
+							</li>
+							<li class="main-right__eductaion_content_info_item">
+								<h4 class="main-right__eductaion_content_info_item__title">
+									Lyceum #1 at BSUIR
+								</h4>
+								<p class="main-right__eductaion_content_info_item__stages">
+									10–11 stages
+								</p>
+								<p class="main-right__eductaion_content_info_item__location">
+									Minsk
+								</p>
+							</li>
+							<li class="main-right__eductaion_content_info_item">
+								<h4 class="main-right__eductaion_content_info_item__title">
+									MRK BSUIR
+								</h4>
+								<p class="main-right__eductaion_content_info_item__stages">
+									Technician-programmer
+								</p>
+								<p class="main-right__eductaion_content_info_item__location">
+									Minsk
+								</p>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="main-right__works_container">
+					<h3 class="main-right__works_title right_title">
+						Works
+					</h3>
+					<div class="main-right__works_content_container line_container">
+						<div class="main-right__works_content_line line_item"></div>
+						<ul class="main-right__works_content_projects right_contents">
+							<li class="main-right__works_content_project horror_project">
+								<a href="https://oardieldei.github.io/eldritch-codejam/my-app/"
+									class="main-right__works_content_project_link" target="_blank">
+									<div class="main-right__works_content_project_link__image"></div>
+									<p class="main-right__works_content_project_link__title">
+										Eldritch Horror
+									</p>
+								</a>
+							</li>
+							<li class="main-right__works_content_project css-bayan">
+								<a href="https://oardieldei.github.io/cssBayan/cssBayan/" class="main-right__works_content_project_link"
+									target="_blank">
+									<div class="main-right__works_content_project_link__image"></div>
+									<p class="main-right__works_content_project_link__title">
+										Meme bayan
+									</p>
+								</a>
+							</li>
+							<li class="main-right__works_content_project my-cv">
+								<a href="https://oardieldei.github.io/rsschool-cv/" class="main-right__works_content_project_link"
+									target="_blank">
+									<div class="main-right__works_content_project_link__image"></div>
+									<p class="main-right__works_content_project_link__title">
+										This CV lol
+									</p>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="main-right__code_container" id="code">
+					<h3 class="main-right__code_title right_title">
+						Code
+					</h3>
+					<div class="main-right__code_content_container line_container">
+						<div class="main-right__code_content_line line_item"></div>
+						<div class="main-right__code_content right_contents">
+							<pre><code>function deepCount(a){
+  let sum = a.length
+  for (let i = 0; i &lt; a.length; i++)
+    if (Array.isArray(a[i])) {
+      sum += deepCount(a[i])
+      deepCount(a[i])
+    }
+  return sum
+}</code></pre>
+						</div>
+					</div>
+				</section>
+			</div>
+		</main>
+		<footer class="footer container">
+			<div class="footer-left">
+				<a href="https://github.com/Oardieldei" class="footer__github foot__link" target="_blank"></a>
+			</div>
+			<div class="footer-right">
+				<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="footer__year foot__link" target="_blank">2023</a>
+				<a href="https://rs.school/js/" class="footer__course foot__link" target="_blank"></a>
+			</div>			
+		</footer>
 	</div>
 </body>
 
