@@ -1,0 +1,43 @@
+.footer {
+	margin-bottom: 10px;	
+}
+
+.footer > .footer-right:last-child {
+	display: flex;
+	justify-content: space-between;
+	padding-left: 33px;
+}
+
+.foot__link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: .3s;
+}
+
+.footer__github,
+.footer__course {		
+	background-size: cover;
+	background-position: contain;
+}
+
+.footer__year {
+	color: black;	
+	font-weight: 500;	
+}
+
+.footer__course {
+	background-image: url('../img/rs_school_js.svg');	
+	height: 44.4px;
+	width: 120px;
+}
+
+.footer__github {
+	background-image: url('../img/github.png');	
+	height: 50px;
+	width: 50px;
+}
+
+.foot__link:hover {
+	transform: scale(1.1, 1.1);
+}
