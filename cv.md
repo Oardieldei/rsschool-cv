@@ -18,3 +18,6 @@ I already know _a little_:
 ## Education
 Technician-programmer (MRK BSUIR)
 Lyceum #1
+
+## English level
+I study english and want to practicing. My english lvl is C2 maybe.
