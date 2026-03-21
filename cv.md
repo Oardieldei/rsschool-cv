@@ -21,3 +21,13 @@ Lyceum #1
 
 ## English level
 I study english and want to practicing. My english lvl is C2 maybe.
+
+## Contact me
+Tg: [@oardieldei](https://t.me/oardieldei)
+
+## Code example 
+```
+for (let i = 0; i < 5; i++) {
+	console.log(`Wow! i is ${i} now! I'm shocked!`)
+}
+```
