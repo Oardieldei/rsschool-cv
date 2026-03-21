@@ -8,3 +8,13 @@ I already know _a little_:
 - CSS;
 - JS;
 - VSC.
+
+## Projects
+- https://oardieldei.github.io/cssMemeSlider/cssMemeSlider/
+- https://oardieldei.github.io/eldritch-codejam/my-app/
+- https://oardieldei.github.io/rsschool-cv-2/
+- https://oardieldei.github.io/rsschool-cv-old/
+
+## Education
+Technician-programmer (MRK BSUIR)
+Lyceum #1
