@@ -13,7 +13,7 @@ body {
 	margin: 0 auto;
 	border-left: 2px solid black;
 	border-right: 2px solid black;
-	padding: 0 40px;
+	padding: 0 60px;
 }
 
 .header,
@@ -25,4 +25,11 @@ section,
 * {
 	font-family: "Winky Rough", sans-serif;
 	color: rgb(51, 9, 26);
+}
+
+h2 {
+	font-size: 36px;
+	font-weight: 500;
+	text-decoration: underline;
+	margin-bottom: 20px;
 }

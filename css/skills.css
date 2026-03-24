@@ -1,0 +1,26 @@
+.skills__list_item {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.skills__list_item_text {
+	font-size: 24px;
+}
+
+.skills__list_item_level {
+	display: flex;
+}
+
+.skills__list_item_level__cross > svg {
+	width: 22pt;
+	height: 22pt;
+}
+
+.skills__list_item_level__cross > svg * {
+	fill: grey;
+}
+
+.skills__list_item_level__cross.active-fire > svg * {
+	fill: rgb(121, 3, 3);
+}
