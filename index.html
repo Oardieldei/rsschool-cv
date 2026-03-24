@@ -4,6 +4,10 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap"
+		rel="stylesheet">
 	<link rel="stylesheet" href="./css/style.css">
 	<link rel="shortcut icon" href="./image/favicon.png" type="image/x-icon">
 	<title>The Dark Knight's CV</title>
@@ -13,27 +17,35 @@
 	<div class="full-wrapper">
 		<header class="header">
 			<nav class="nav">
-				<ul class="nav__list"></ul>
+				<ul class="nav__list">
+					<li class="nav__list_item"><a href="#intro" class="nav__list_item_link">Intro</a></li>
+					<li class="nav__list_item"><a href="#about" class="nav__list_item_link">About</a></li>
+					<li class="nav__list_item"><a href="#skills" class="nav__list_item_link">Skills</a></li>
+					<li class="nav__list_item"><a href="#education" class="nav__list_item_link">Education</a></li>
+					<li class="nav__list_item"><a href="#code" class="nav__list_item_link">Code</a></li>
+					<li class="nav__list_item"><a href="#projects" class="nav__list_item_link">Projects</a></li>
+					<li class="nav__list_item"><a href="#contacts" class="nav__list_item_link">Contacts</a></li>
+				</ul>
 			</nav>
 		</header>
 		<main class="main">
-			<section class="intro">
+			<section class="intro" id="intro">
 				<div class="intro__avatar"></div>
 				<div class="intro__text">
 					<h1 class="intro__text_name">Sir Oardieldei</h1>
 					<p class="intro__text_role">The Dark Knight</p>
 				</div>
 			</section>
-			<section class="about"></section>
-			<section class="skills">
+			<section class="about" id="about"></section>
+			<section class="skills" id="skills">
 				<ul class="skills__list"></ul>
 			</section>
-			<section class="education"></section>
-			<section class="code"></section>
-			<section class="projects"></section>
+			<section class="education" id="education"></section>
+			<section class="code" id="code"></section>
+			<section class="projects" id="projects"></section>
 		</main>
 		<footer class="footer">
-			<ul class="contacts"></ul>
+			<ul class="contacts" id="contacts"></ul>
 			<div class="links">
 				<a href="#" class="links_gh"></a>
 				<span class="links_year">2026</span>

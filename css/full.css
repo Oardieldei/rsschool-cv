@@ -9,8 +9,20 @@ body {
 
 .full-wrapper {
 	max-width: 1280px;
-	background-color: #ffffff6e;
+	background-color: #ffffff94;
 	margin: 0 auto;
 	border-left: 2px solid black;
 	border-right: 2px solid black;
+	padding: 0 40px;
+}
+
+.header,
+section,
+.footer {
+	padding: 40px 0;
+}
+
+* {
+	font-family: "Winky Rough", sans-serif;
+	color: rgb(51, 9, 26);
 }
