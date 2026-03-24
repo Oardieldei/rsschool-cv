@@ -6,3 +6,11 @@ body {
 	background: no-repeat center fixed url('../image/bg.jpg');
 	background-size: cover;
 }
+
+.full-wrapper {
+	max-width: 1280px;
+	background-color: #ffffff6e;
+	margin: 0 auto;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
