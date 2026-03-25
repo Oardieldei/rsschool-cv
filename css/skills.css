@@ -1,3 +1,12 @@
+.skills {
+	display: flex;
+	flex-direction: column;
+}
+
+.skills__list {
+	column-count: 2;
+}
+
 .skills__list_item {
 	display: flex;
 	align-items: center;
@@ -6,6 +15,7 @@
 
 .skills__list_item_text {
 	font-size: 24px;
+	width: 230px;
 }
 
 .skills__list_item_level {
