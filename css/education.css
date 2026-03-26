@@ -9,6 +9,10 @@
 	position: relative;
 }
 
+.education__list_item:first-child {
+	padding-top: 0;
+}
+
 .education__list_item::before {
 	position: absolute;
 	content: '⥥';
