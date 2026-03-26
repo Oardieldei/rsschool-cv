@@ -1372,7 +1372,19 @@
 					</li>
 				</ul>
 			</section>
-			<section class="code" id="code"></section>
+			<section class="code" id="code">
+				<h2 class="code_title">Code</h2>
+				<pre class="code__content">const solve = s => {
+  const letters = s.split('')
+  let upsNum = 0
+  
+  letters.forEach(a => {
+    if (a === a.toUpperCase()) upsNum++
+  })
+  
+  return upsNum <= s.length / 2 ? s.toLowerCase() : s.toUpperCase()
+}</pre>
+			</section>
 			<section class="projects" id="projects"></section>
 		</main>
 		<footer class="footer">
