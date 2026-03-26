@@ -1,0 +1,33 @@
+.footer {
+	display: flex;
+	gap: 30px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.contacts_link {
+	font-size: 20px;
+}
+
+.links {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 8px;
+}
+
+.links_gh {
+	height: 30px;
+}
+
+.links_gh img {
+	height: 100%;
+}
+
+.links_rsschool {
+	width: 60px;
+}
+
+.links_year {
+	color: #000;
+}
