@@ -1,0 +1,9 @@
+.about_texts {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.about_text {
+	font-size: 28px;
+}

@@ -1,0 +1,36 @@
+.education__list {
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+}
+
+.education__list_item {
+	padding: 20px 0 0 30px;
+	position: relative;
+}
+
+.education__list_item:first-child {
+	padding-top: 0;
+}
+
+.education__list_item::before {
+	position: absolute;
+	content: '⥥';
+	left: 40px;
+	top: -30px;
+	font-size: 32px;
+}
+
+.education__list_item:first-child:before {
+	content: ''
+}
+
+.education__list_item__title {
+	font-size: 30px;
+	margin-bottom: 10px;
+	font-weight: 500;
+}
+
+.eductaion__list_item__speciality {
+	font-size: 28px;
+}
