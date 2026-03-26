@@ -1,0 +1,40 @@
+.intro {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 90px;
+	padding-bottom: 90px;
+	gap: 150px;
+}
+
+.intro__avatar {
+	width: 500px;
+	height: 500px;
+	overflow: hidden;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0 0 5px 3px rgb(51, 9, 26);
+	transition: .3s;
+}
+
+.intro__avatar:hover {
+	transform: scale(1.1, 1.1);
+}
+
+.intro__avatar_image {
+	max-height: 100%;
+	width: auto;
+}
+
+.intro__text_name {
+	font-size: 64px;
+	color: black;
+	font-weight: 500;
+}
+
+.intro__text_role {
+	font-size: 36px;
+	text-align: right;
+}

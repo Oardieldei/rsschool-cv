@@ -1,0 +1,28 @@
+.header,
+.nav,
+.nav__list {
+	width: 100%;
+}
+
+.nav__list {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.nav__list_item {
+	font-size: 24px;
+	background-color: inherit;
+	transition: .3s;
+	border-radius: 6px;
+	border-bottom: solid 2px rgba(51, 9, 26, 0);
+}
+
+.nav__list_item:hover {
+	border-bottom: solid 2px rgb(51, 9, 26);
+	transform: scale(1.1, 1.1);
+}
+
+.nav__list_item_link {
+	padding: 10px 25px;
+}

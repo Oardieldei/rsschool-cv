@@ -1,4 +1,10 @@
-body {
-	background-color: aquamarine;
-	color: black;
-}
+@import url('./clean.css');
+@import url('./full.css');
+@import url('./header.css');
+@import url('./intro.css');
+@import url('./about.css');
+@import url('./skills.css');
+@import url('./education.css');
+@import url('./code-block.css');
+@import url('./projects.css');
+@import url('./footer.css');
