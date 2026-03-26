@@ -16,6 +16,11 @@
 	align-items: center;
 	justify-content: center;
 	box-shadow: 0 0 5px 3px rgb(51, 9, 26);
+	transition: .3s;
+}
+
+.intro__avatar:hover {
+	transform: scale(1.1, 1.1);
 }
 
 .intro__avatar_image {
